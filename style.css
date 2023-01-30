@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Marko+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+/* nav {
+  width: 100%;
+} */
+
+header {
+  height: 2vh;
+  margin-top: 1.5rem;
+}
+nav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav {
+  text-align: center;
+}
+
+/*
+home.html
+*/
+
+#homeTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Marko One";
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.introduction h2 {
+  margin: 0;
+}
+
+.introduction img {
+  width: 60vw;
+  height: 42vh;
+  padding: 0;
+  padding: 0rem 0.4rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.expediaInfo {
+  padding: 0.9rem 0.9rem 0rem;
+  border: 2px solid black;
+  width: max-content;
+}
+
+#jobDescription,
+#enjoyProgramming {
+  border: 2px solid black;
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+
+footer {
+  border: 1px solid black;
+  padding: 0.3rem;
+}
+
+h1 {
+  margin: 0.8rem 0;
+}
