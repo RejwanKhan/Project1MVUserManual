@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #eaebeb;
 }
 /* nav {
   width: 100%;
@@ -121,5 +122,65 @@ ul > li {
 }
 
 .containerWhole {
-  margin: 10px;
+  margin: 0.8rem;
+}
+
+/*
+experience.html
+*/
+
+.container {
+  margin: 0.8rem;
+}
+
+.box {
+  background-color: blue;
+  border-radius: 0.2rem;
+}
+
+.pictureOfMe img {
+  width: 60%;
+  height: 40%;
+  padding-left: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.aboutMeBox {
+  display: flex;
+  justify-content: space;
+}
+
+.aboutMeBox p {
+  margin: 0;
+  padding-left: 0.4rem;
+  font-size: 1rem;
+}
+
+/*
+Box Colours
+*/
+
+.box:nth-of-type(1) {
+  background-color: #c9314f;
+}
+.box:nth-of-type(2) {
+  background-color: #3b7fd8;
+}
+.box:nth-of-type(3) {
+  background-color: #a0c2ee;
+}
+.box:nth-of-type(4) {
+  background-color: #cdb4db;
+}
+.box:nth-of-type(5) {
+  background-color: #ffc8dd;
+}
+.box:nth-of-type(6) {
+  background-color: #e2b22c;
+}
+.box:nth-of-type(7) {
+  background-color: #b1afa9;
+}
+.box:nth-of-type(8) {
+  background-color: #85dba6;
 }
