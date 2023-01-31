@@ -215,7 +215,6 @@ experience.html
 .aboutMeBox p {
   margin: 0;
   padding-left: 0.4rem;
-  font-size: 1rem;
 }
 
 /*
@@ -263,4 +262,84 @@ Portfolio.html styling
 .projects h2 {
   border-bottom: 2px solid black;
   width: max-content;
+}
+
+/* MEASUREMENTS MEDIA QUERIES*/
+
+@media screen and (min-width: 300px) and (max-width: 699px) {
+  #homeTitle {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1199px) {
+  #homeTitle {
+    font-size: 3.8rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #homeTitle {
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 3.7rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 2rem;
+  }
 }
