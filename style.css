@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Marko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,6 +12,7 @@ html {
 body {
   margin: 0;
   background-color: #cdcbcb;
+  font-family: "Julius Sans One";
 }
 /* nav {
   width: 100%;
@@ -44,6 +46,13 @@ nav {
   height: 100%;
 }
 
+h1 {
+  font-family: "Marko One", "lucian", "san-serif";
+}
+h2 {
+  font-family: "Kanit", "Julius Sans One", "san-serif";
+}
+
 /*
 home.html
 */
@@ -54,6 +63,7 @@ home.html
   font-family: "Marko One";
   font-size: 3rem;
   letter-spacing: 0.5rem;
+  font-weight: 900;
 }
 
 .introduction {
@@ -68,7 +78,7 @@ home.html
 
 .introduction img {
   width: 60vw;
-  height: 42vh;
+  height: 50vh;
   padding: 0;
   padding: 0rem 0.4rem;
 }
@@ -95,7 +105,9 @@ p {
 footer {
   border: 1px solid black;
   padding: 0.3rem;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background-color: black;
+  color: white;
 }
 
 h1 {
@@ -112,6 +124,20 @@ h1 {
     display: block;
   }
 }
+
+/* COLOURS */
+.expediaInfo {
+  background-color: #a15959;
+}
+
+#aboutMeInfo {
+  background-color: #587ea7;
+}
+
+#enjoyProgramming {
+  background-color: #6b53ac;
+}
+
 /*
 
 bio.html
@@ -123,7 +149,7 @@ bio.html
   justify-content: flex-start;
   border: 2px solid black;
   padding: 0.2rem;
-  background-color: #f7f7f7;
+  background-color: #c8c4d4;
 }
 
 ul {
@@ -152,6 +178,12 @@ ul > li {
   padding: 0.3rem;
 }
 
+.dreams p {
+  background-color: #ce8827;
+}
+#gameContainer p {
+  background-color: #1d9083;
+}
 #gameContainer img {
   width: 80%;
 }
