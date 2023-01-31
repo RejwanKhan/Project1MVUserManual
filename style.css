@@ -103,6 +103,15 @@ h1 {
   margin: 0.8rem 0;
 }
 
+.roleDescription {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .roleDescription {
+    display: block;
+  }
+}
 /*
 
 bio.html
@@ -141,6 +150,41 @@ ul > li {
   background-color: #f7f7f7;
   border: 1px black solid;
   padding: 0.3rem;
+}
+
+#gameContainer img {
+  width: 80%;
+}
+.imgGame {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hades {
+  display: none;
+}
+
+#itTakesTwo {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  #gameContainer img {
+    width: 45%;
+  }
+  #gameContainer #hades {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #gameContainer img {
+    width: 33%;
+  }
+
+  #gameContainer #itTakesTwo {
+    display: inline-block;
+  }
 }
 
 /*
